@@ -132,6 +132,8 @@ hr {
 /*------------------
     Media queries 
  ------------------*/
+
+ /* Small devices */
 @media only screen and (max-width: 688px) {
     .container{
         width: 100%;
@@ -142,6 +144,9 @@ hr {
     }
     .player, .blog{
         flex-direction: column;
+    }
+    .course-info{
+        width: 80%;
     }
 
 }
